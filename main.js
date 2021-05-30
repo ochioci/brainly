@@ -1,4 +1,5 @@
 const { BrainlyAPI, Server } = require('brainly-api');
+console.log('init!!')
 
 BrainlyAPI.startWorker({ experimental: true, server: Server.PH }, async brainly => {
   // find question
